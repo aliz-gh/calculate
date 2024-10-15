@@ -1,0 +1,101 @@
+html,
+body {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(57, 45, 92);
+}
+
+.hero {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.hero>div {
+    width: 30%;
+    /* height: 100%; */
+
+
+}
+
+.top {
+    direction: rtl;
+    border-radius: .5rem;
+    background-color: rgb(26, 24, 24);
+    margin-top: 2rem;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top > div {
+   width: 90%;
+    font-size: 3rem;
+    color: white;
+}
+
+.center {
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    margin-top: 2rem;
+    /* height: 400px; */
+    width: 100%;
+    border-radius: .5rem;
+
+}
+
+.num {
+    z-index: 2;
+    width: 100%;
+    height: 68px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn1 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 17%;
+    background-color: white !important;
+    transition: all .3s ease-in-out;
+}
+.btn1:hover{
+    background-color: rgba(255, 255, 255, 0.589) !important;
+}
+
+.btn2 {
+    font-size: 1rem;
+    padding-top: 12px;
+    font-weight: bold;
+    padding-bottom: 12px;
+    width: 17%;
+    background-color: darkslategray;
+    color: white !important;
+}
+
+.btnr {
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 43%;
+    background-color: darkslategray;
+    color: white !important;
+}
+
+.btnmo {
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 43%;
+    background-color: red;
+    color: white !important;
+
+}
